@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "video-site",
+  "account_id": "975905bf6ab84d9a9669798706377cdd",
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-09-07",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
@@ -19,7 +20,7 @@
   // 動画の一覧・公開状態・並び順・視聴ログを持つデータベース。
   // database_id は `npm run setup:db` が自動で書き込む。
   "d1_databases": [
-    { "binding": "DB", "database_name": "video-site-db", "database_id": "d210aca7-9ff2-42d5-871d-f4de0b51cafa" }
+    { "binding": "DB", "database_name": "video-site-db", "database_id": "49142122-df5f-496c-a426-91d8abfbeb49" }
   ],
 
 
@@ -28,6 +29,6 @@
   "vars": {
     "VIDEO_PROVIDER": "r2",
     "ADMIN_USER": "hadmin",
-    "R2_PUBLIC_BASE_URL": "https://pub-350471895cda4dca98be21340dcc4f56.r2.dev"
+    "R2_PUBLIC_BASE_URL": "https://pub-b9fbbd9449434e0790fd884843f5465f.r2.dev"
   }
 }
