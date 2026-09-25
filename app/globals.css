@@ -86,7 +86,7 @@ button { font: inherit; color: inherit; }
 .brand-text em {
   font-style: normal; font-size: 17px; font-weight: 600;
   letter-spacing: .17em;
-  color: var(--gold-soft); text-transform: uppercase;
+  color: var(--gold-soft); text-transform: none;
   white-space: nowrap;
 }
 .nav.is-scrolled .brand-text em { color: var(--gold-text); }

@@ -116,7 +116,7 @@ export function VideoBrowse({ videos }: { videos: VideoSource[] }) {
           <a className="brand" href="/">
             <span className="brand-mark" aria-hidden="true">▮</span>
             <span className="brand-text">
-              <em>MEDICAL EDUCATION</em>
+              <em>glp1.diet</em>
             </span>
           </a>
 
