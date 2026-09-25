@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ゼップバウンド 医療教育動画",
+  title: "glp1.diet",
   description: "治療をはじめる前に知っておきたいことを、動画で解説します。",
 };
 
